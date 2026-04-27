@@ -1,13 +1,10 @@
-# Simple Calculator
+# Simple Interactive Calculator
 
-a = 10
-b = 5
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-print("Number 1:", a)
-print("Number 2:", b)
-
-print("Addition:", a + b)
+print("----- Results -----")
+print("Sum:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
-print("This is a simple calculator project")
